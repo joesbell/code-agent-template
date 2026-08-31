@@ -229,6 +229,7 @@ description: 将本 skill 内置的通用 Agent 规范模板，与 AI 编程 Age
 
 ## Figma MCP Integration Rules
 
+> **来源：社区提示词**（非 Figma 官方文档原文，是社区流传的 Figma MCP 工作流实践总结）。
 > 仅当项目已配置 Figma MCP（如 Figma 官方 Dev Mode MCP server）时启用本节；未配置 Figma MCP 时可整节移除。
 
 These rules define how to translate Figma inputs into code for this project and must be followed for every Figma-driven change.
@@ -257,6 +258,8 @@ These rules define how to translate Figma inputs into code for this project and 
 ## MCP Servers
 
 ### Figma MCP server rules
+
+> **来源：Figma 官方提示词**（摘自 Figma 官方 Dev Mode MCP server 文档，官方建议将以下规则加入 agent 指令文件）。
 
 - The Figma MCP server provides an assets endpoint which can serve image and SVG assets
 - IMPORTANT: If the Figma MCP server returns a localhost source for an image or an SVG, use that image or SVG source directly

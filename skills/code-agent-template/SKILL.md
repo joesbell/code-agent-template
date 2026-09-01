@@ -1,6 +1,6 @@
 ---
 name: code-agent-template
-description: 将本 skill 内置的通用 Agent 规范模板，与 AI 编程 Agent 的指令文件（AGENTS.md / CLAUDE.md / GEMINI.md / agent.md 等）智能合并融合；适用于 Claude Code、Codex、Gemini CLI、Cursor 等工具；模板已内嵌于本 skill，无需任何本地模板文件。当用户要初始化项目 Agent 规范、合并模板进指令文件时使用
+description: "将本 skill 内置的通用 Agent 规范模板，与 AI 编程 Agent 的指令文件（AGENTS.md / CLAUDE.md / GEMINI.md / agent.md 等）智能合并融合；适用于 Claude Code、Codex、Gemini CLI、Cursor 等工具；模板已内嵌于本 skill，无需任何本地模板文件。当用户要初始化项目 Agent 规范、合并模板进指令文件时使用 | Smartly merge the built-in, battle-tested engineering-spec template into your AI coding agent's instruction files (AGENTS.md / CLAUDE.md / GEMINI.md / agent.md): fill in missing sections, preserve project-specific rules, and fuse overlapping ones — never overwrite, auto-backup before writing. Works with Claude Code, Codex, Cursor, Gemini CLI and more; the template is embedded in this skill, no local template files needed. Use when initializing project agent guidelines or merging a template into instruction files."
 ---
 
 # /code-agent-template

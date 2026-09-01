@@ -2,6 +2,8 @@
 
 > 🚀 一条指令，让你的 AI 编程助手立刻"懂规矩"——任何项目、任何主流 Agent，30 秒装上一套开箱即用的工程规范。
 
+[English](README.en.md) | 简体中文
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![Works with Claude Code](https://img.shields.io/badge/works%20with-Claude%20Code-blueviolet)
 ![Works with Codex](https://img.shields.io/badge/works%20with-Codex-orange)
@@ -55,6 +57,16 @@
 > 模板默认使用中文沟通与中文注释；团队用其他语言的话，改几行内嵌模板即可。
 
 ## 🚀 快速开始
+
+### 一键安装（skills CLI，推荐）
+
+支持 Claude Code、Codex、Cursor、Gemini CLI 等 20+ Agent，一条命令装好，并自动注册到对应 Agent 的 skills 目录：
+
+```bash
+npx skills add joesbell/code-agent-template
+```
+
+> 该命令来自 [skills.sh](https://skills.sh)（Vercel 维护的 Agent Skills 开放目录）。每一次安装都会让这个 skill 在目录排行榜上被更多人看到。
 
 ### 安装到 Claude Code
 
